@@ -201,13 +201,13 @@ while count<length:
     output+=tempoutput 
     count+=1
     rotor1=rotor1+1
-    if rotor1 ==27:
+    if rotor1 ==26:
         rotor2+=1
         rotor1=0
-        if rotor2==27:
+        if rotor2==26:
             rotor3+=1
             rotor2=0
-            if rotor3==27:
+            if rotor3==26:
                 rotor3=0
                  
 print(output)
